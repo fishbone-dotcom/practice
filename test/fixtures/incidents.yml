@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  organization: one
+  user: one
+  title: MyString
+  description: MyString
+  severity: MyString
+  status: MyString
+  started_at: 2026-09-30 11:50:24
+  resolved_at: 2026-09-30 11:50:24
+
+two:
+  organization: two
+  user: two
+  title: MyString
+  description: MyString
+  severity: MyString
+  status: MyString
+  started_at: 2026-09-30 11:50:24
+  resolved_at: 2026-09-30 11:50:24
