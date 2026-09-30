@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_30_115024) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_30_124221) do
   create_table "incidents", force: :cascade do |t|
     t.integer "organization_id", null: false
     t.integer "user_id", null: false
-    t.string "title"
-    t.string "description"
-    t.string "severity"
-    t.string "status"
+    t.string "title", null: false
+    t.string "description", null: false
+    t.string "severity", null: false
+    t.string "status", null: false
     t.datetime "started_at"
     t.datetime "resolved_at"
     t.datetime "created_at", null: false
@@ -29,17 +29,18 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_30_115024) do
   create_table "organizations", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "name"
+    t.string "name", null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.integer "organization_id", null: false
-    t.string "name"
+    t.string "name", null: false
     t.string "email"
-    t.string "role"
-    t.string "password"
+    t.string "role", null: false
+    t.string "password", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["organization_id", "email"], name: "index_users_on_organization_id_and_email", unique: true
     t.index ["organization_id"], name: "index_users_on_organization_id"
   end
 
