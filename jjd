@@ -1,0 +1,57 @@
+=> 
+[{[31m[1m"[0m[31mexternal_id[0m[31m[1m"[0m => [31m[1m"[0m[31mINC-1001[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mexternal_organization_id[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mORG-A[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mtitle[0m[31m[1m"[0m => [31m[1m"[0m[31mDatabase outage[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mdescription[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mProduction database is unavailable[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mseverity[0m[31m[1m"[0m => [31m[1m"[0m[31mcritical[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstatus[0m[31m[1m"[0m => [31m[1m"[0m[31mopen[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstarted_at[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31m2026-10-01T08:00:00Z[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mresolved_at[0m[31m[1m"[0m => [36m[1mnil[0m},
+ {[31m[1m"[0m[31mexternal_id[0m[31m[1m"[0m => [31m[1m"[0m[31mINC-1003[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mexternal_organization_id[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mORG-A[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mtitle[0m[31m[1m"[0m => [31m[1m"[0m[31mLogin failures[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mdescription[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mSome users cannot log in[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mseverity[0m[31m[1m"[0m => [31m[1m"[0m[31mmedium[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstatus[0m[31m[1m"[0m => [31m[1m"[0m[31mopen[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstarted_at[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31m2026-10-01T06:45:00Z[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mresolved_at[0m[31m[1m"[0m => [36m[1mnil[0m},
+ {[31m[1m"[0m[31mexternal_id[0m[31m[1m"[0m => [31m[1m"[0m[31mINC-1005[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mexternal_organization_id[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mORG-A[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mtitle[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mPayment service failure[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mdescription[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mPayment requests are failing[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mseverity[0m[31m[1m"[0m => [31m[1m"[0m[31mcritical[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstatus[0m[31m[1m"[0m => [31m[1m"[0m[31minvestigating[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstarted_at[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31m2026-10-01T05:20:00Z[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mresolved_at[0m[31m[1m"[0m => [36m[1mnil[0m},
+ {[31m[1m"[0m[31mexternal_id[0m[31m[1m"[0m => [31m[1m"[0m[31mINC-1007[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mexternal_organization_id[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mORG-A[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mtitle[0m[31m[1m"[0m => [31m[1m"[0m[31mDashboard error[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mdescription[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mDashboard occasionally returns an error[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mseverity[0m[31m[1m"[0m => [31m[1m"[0m[31mmedium[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstatus[0m[31m[1m"[0m => [31m[1m"[0m[31minvestigating[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstarted_at[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31m2026-10-01T04:00:00Z[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mresolved_at[0m[31m[1m"[0m => [36m[1mnil[0m},
+ {[31m[1m"[0m[31mexternal_id[0m[31m[1m"[0m => [31m[1m"[0m[31mINC-1009[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mexternal_organization_id[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mORG-A[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mtitle[0m[31m[1m"[0m => [31m[1m"[0m[31mIncorrect metrics[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mdescription[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31mSome monitoring metrics are inaccurate[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mseverity[0m[31m[1m"[0m => [31m[1m"[0m[31mlow[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstatus[0m[31m[1m"[0m => [31m[1m"[0m[31mopen[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mstarted_at[0m[31m[1m"[0m =>
+   [31m[1m"[0m[31m2026-10-01T03:00:00Z[0m[31m[1m"[0m,
+  [31m[1m"[0m[31mresolved_at[0m[31m[1m"[0m => [36m[1mnil[0m}]

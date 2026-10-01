@@ -10,10 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_30_124221) do
+ActiveRecord::Schema[8.1].define(version: 2026_10_01_103638) do
   create_table "incidents", force: :cascade do |t|
     t.integer "organization_id", null: false
-    t.integer "user_id", null: false
     t.string "title", null: false
     t.string "description", null: false
     t.string "severity", null: false
@@ -22,14 +21,19 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_30_124221) do
     t.datetime "resolved_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "external_id", null: false
+    t.string "external_created_by_id"
+    t.index ["external_created_by_id"], name: "index_incidents_on_external_created_by_id"
+    t.index ["external_id"], name: "index_incidents_on_external_id", unique: true
     t.index ["organization_id"], name: "index_incidents_on_organization_id"
-    t.index ["user_id"], name: "index_incidents_on_user_id"
   end
 
   create_table "organizations", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name", null: false
+    t.string "api_key"
+    t.index ["api_key"], name: "index_organizations_on_api_key", unique: true
   end
 
   create_table "users", force: :cascade do |t|
@@ -45,6 +49,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_30_124221) do
   end
 
   add_foreign_key "incidents", "organizations"
-  add_foreign_key "incidents", "users"
   add_foreign_key "users", "organizations"
 end

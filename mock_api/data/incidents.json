@@ -1,0 +1,102 @@
+[
+  {
+    "external_id": "INC-1001",
+    "external_organization_id": "ORG-A",
+    "title": "Database outage",
+    "description": "Production database is unavailable",
+    "severity": "critical",
+    "status": "open",
+    "started_at": "2026-10-01T08:00:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1002",
+    "external_organization_id": "ORG-B",
+    "title": "API latency spike",
+    "description": "API response times are unusually high",
+    "severity": "high",
+    "status": "investigating",
+    "started_at": "2026-10-01T07:30:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1003",
+    "external_organization_id": "ORG-A",
+    "title": "Login failures",
+    "description": "Some users cannot log in",
+    "severity": "medium",
+    "status": "open",
+    "started_at": "2026-10-01T06:45:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1004",
+    "external_organization_id": "ORG-B",
+    "title": "Email notification delay",
+    "description": "Incident emails are being delivered late",
+    "severity": "low",
+    "status": "resolved",
+    "started_at": "2026-09-30T15:00:00Z",
+    "resolved_at": "2026-09-30T16:30:00Z"
+  },
+  {
+    "external_id": "INC-1005",
+    "external_organization_id": "ORG-A",
+    "title": "Payment service failure",
+    "description": "Payment requests are failing",
+    "severity": "critical",
+    "status": "investigating",
+    "started_at": "2026-10-01T05:20:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1006",
+    "external_organization_id": "ORG-B",
+    "title": "Slow background jobs",
+    "description": "Background jobs are processing slowly",
+    "severity": "high",
+    "status": "resolved",
+    "started_at": "2026-09-30T12:00:00Z",
+    "resolved_at": "2026-09-30T14:00:00Z"
+  },
+  {
+    "external_id": "INC-1007",
+    "external_organization_id": "ORG-A",
+    "title": "Dashboard error",
+    "description": "Dashboard occasionally returns an error",
+    "severity": "medium",
+    "status": "investigating",
+    "started_at": "2026-10-01T04:00:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1008",
+    "external_organization_id": "ORG-B",
+    "title": "Cache unavailable",
+    "description": "Cache service is temporarily unavailable",
+    "severity": "critical",
+    "status": "resolved",
+    "started_at": "2026-09-29T10:00:00Z",
+    "resolved_at": "2026-09-29T11:15:00Z"
+  },
+  {
+    "external_id": "INC-1009",
+    "external_organization_id": "ORG-A",
+    "title": "Incorrect metrics",
+    "description": "Some monitoring metrics are inaccurate",
+    "severity": "low",
+    "status": "open",
+    "started_at": "2026-10-01T03:00:00Z",
+    "resolved_at": null
+  },
+  {
+    "external_id": "INC-1010",
+    "external_organization_id": "ORG-B",
+    "title": "Service unavailable",
+    "description": "Internal service is not responding",
+    "severity": "high",
+    "status": "open",
+    "started_at": "2026-10-01T02:30:00Z",
+    "resolved_at": null
+  }
+]
